@@ -1,0 +1,60 @@
+/* Style dasar body dengan background gambar gedung */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+  /* Gambar background */
+  background-image: url("../img/background.jpg"); /* pastikan file ini ada */
+  background-size: cover;            /* gambar memenuhi layar */
+  background-repeat: no-repeat;      /* tidak diulang */
+  background-attachment: fixed;      /* tetap saat discroll */
+  background-position: center center;/* posisi tengah */
+
+  color: white;                      /* teks putih agar kontras */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* bayangan teks agar lebih terbaca */
+}
+
+/* Kontainer utama */
+.container {
+  background-color: rgba(0, 0, 0, 0.5); /* lapisan hitam transparan */
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 960px;
+  border-radius: 10px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Navigasi */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/* Logo kecil di atas teks judul */
+.logo-atas {
+  width: 40px;       /* 👈 Ukuran logo yang lebih kecil */
+  height: auto;
+  display: block;
+  margin: 0 auto 8px; /* Tengah + spasi bawah kecil */
+}
